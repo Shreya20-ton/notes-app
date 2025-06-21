@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notes + Quotes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>📝 Notes + Quote App</h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search notes or tags..." />
+  </div>
+
+  <form id="noteForm">
+    <input type="text" id="titleInput" placeholder="Note Title" required />
+    <textarea id="contentInput" placeholder="Note Content" required></textarea>
+    <input type="text" id="tagsInput" placeholder="Tags (comma-separated)" />
+    <button type="submit">Add Note</button>
+  </form>
+
+  <div class="quote" id="quoteBanner">✨ A quote will appear here after adding a note...</div>
+
+  <div class="notes-container" id="notesContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
