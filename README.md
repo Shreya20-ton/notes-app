@@ -13,8 +13,4 @@ A simple and creative web-based notes app with:
 - Quotes appear automatically after each note is added
 - Responsive and clean design with smooth user experience
 
-## 🚀 Live Demo
-[https://shreya20-ton.github.io/notes-app](https://shreya20-ton.github.io/notes-app)
-
----
 Built with ❤️ using HTML, CSS, and JavaScript.
